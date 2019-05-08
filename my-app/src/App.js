@@ -240,7 +240,7 @@ class Header extends React.Component{
     return (
 
       <header className='head'>
-        <img src={ require('./logo.png') } alt="Logo" />
+        
       </header>
 
     );
