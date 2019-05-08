@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#all{
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  width:100%;
+  height:100%;
+  position: absolute;
+}
+
+
+
+header{
+  height:60px;
+  width:100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+header h1{
+  color:#008db1;
+  margin-left:10px;
+  font-size: 20px;
+}
+
+header div{
+  display: flex;
+}
+
+header img{
+  height:40px;
+  width:150px;
+  margin:20px;
+
+}
+
+
+
+#main{
+  height:calc(100% - 60px);
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form{
+  width:300px;
+  height:300px;
+  background-color: white;
+  padding-left:20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  border-radius:10px;
+  box-shadow:0px 0px 20px 5px #adadad;
+}
+
+input{
+width: 180px;
+margin-top: 10px;
+height: 25px;
+background: #F0F0F0;
+border:none;
+border-radius: 0px;
+border-bottom:2px solid #ffac00;
+outline: none;
+}
+
+input:placeholder{
+  margin-left: 10px;
+}
+
+form button{
+  width:100px;
+  height:30px;
+  background-color: #ffac00;
+  color:#333333;
+  border-radius:5px;
+  border:none;
+  margin-top:10px;
+  cursor:pointer;
+}
+
+
+#main div{
+  
+  font-size: 15px;
+  color:#333333;
+  font-size:18px;
+  font-weight:500;
+}
+
+p{
+  margin-left: 10px;
+}
+
+.google,.facebook,.twitter{
+  width:20;
+  height: 20;
+  border-radius:2px;
+}
+
+.google{
+  color:white;
+  
+}
+
+.facebook{
+  color:white;
+  
+}
+
+.twitter{
+  color:white;
+  
+}
+
+footer{
+  bottom:0;
+  right:0;
+  left:0;
+  height:200px;
+  position: absolute;
+  display: flex;
+  background-color: #008db1;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+footer p{
+  margin-left: 10px;
+  color:white;
+}
